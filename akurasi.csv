@@ -1,0 +1,7 @@
+,Classifier,prediction,accuracy
+0,NB,MultinomialNB(),0.5826558265582655
+1,K-NN,KNeighborsClassifier(n_neighbors=3),0.994579945799458
+2,RF,"RandomForestClassifier(max_depth=3, n_estimators=50)",0.967479674796748
+3,DT,DecisionTreeClassifier(),0.991869918699187
+4,MLP,MLPClassifier(max_iter=100),0.962059620596206
+5,SVM,"SVC(decision_function_shape='ovo', kernel='linear')",0.962059620596206
